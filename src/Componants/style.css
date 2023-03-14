@@ -1,0 +1,8 @@
+#name{
+    -webkit-text-stroke: 2px white;
+}
+a.active{
+    text-decoration: underline;
+    font-weight: 400;
+    background-color: white;
+}
