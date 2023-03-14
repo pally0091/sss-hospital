@@ -5,11 +5,13 @@ import Nav from './Nav';
 
 const Main = () => {
     return (
-        <div>
-            <Nav></Nav>
-            <Outlet></Outlet>
-            <Footer></Footer>
+      <div>
+        <Nav></Nav>
+        <div className='mt-44'>
+          <Outlet></Outlet>
         </div>
+        <Footer></Footer>
+      </div>
     );
 };
 

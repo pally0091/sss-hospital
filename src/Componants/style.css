@@ -6,3 +6,9 @@ a.active{
     font-weight: 400;
     background-color: white;
 }
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

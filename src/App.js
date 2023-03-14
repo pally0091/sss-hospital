@@ -8,6 +8,7 @@ import Services from './Componants/Services';
 import Doctor from './Componants/Doctor';
 import Contact from './Componants/Contact';
 import News from './Componants/News';
+import Appointment from './Componants/Appointment';
 
 function App() {
   const router = createBrowserRouter([{
@@ -37,6 +38,10 @@ function App() {
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/appointment',
+        element: <Appointment></Appointment>
       }
     ]
   }])

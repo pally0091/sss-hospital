@@ -5,7 +5,7 @@ import './style.css';
 
 const Nav = () => {
     return (
-      <div>
+      <div className='fixed top-0 w-full'>
         <div className="bg-sky-300 flex flex-row items-center justify-between p-5 px-10">
           <div className="w-28 bg-white rounded-md">
             <Link to="/">
